@@ -1,0 +1,50 @@
+# --- Obsidian (local config, workspace state, trash) ---
+.obsidian/
+.trash/
+
+# --- Claude Code ---
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__MACOSX/
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
+Network Trash Folder
+Temporary Items
+# Custom folder icon file ("Icon\r")
+Icon
+
+# --- Python (scripts/) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# --- LaTeX build artifacts ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
